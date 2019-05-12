@@ -21,7 +21,5 @@ echo "fi"
 
 # Path
 bin="$(./bin/bin $VERSION)"
-home="$(./bin/home $VERSION)"
 echo "export PATH=\"$bin:\$PATH\""
-echo "export JAVA_HOME=\"$home\""
 exit 0
